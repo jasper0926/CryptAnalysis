@@ -2,12 +2,12 @@
 
 import unittest
 
-import simulator.aes as aes
+from .. import aes
 
-from simulator.fj import Fault
+from ..fj import Fault
 
-from simulator.fj import inj_decrypt
-from simulator.fj import inj_encrypt
+from ..fj import inj_decrypt
+from ..fj import inj_encrypt
 
 
 class TestFj(unittest.TestCase):

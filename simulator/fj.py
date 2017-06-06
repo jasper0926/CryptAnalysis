@@ -4,7 +4,7 @@
 import numpy as np
 import random
 
-import simulator.aes as aes
+from . imoport aes
 
 
 class Fault:
